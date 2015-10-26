@@ -4,7 +4,7 @@ Custom monitoring handler for Datomic transactors and peers which writes metrics
 
 ## Usage
 
-Add the `datomic-monitoring-influxdb-0.1-SNAPSHOT-standalone.jar` to the Datomic library folder.
+Add the `datomic-monitoring-influxdb-0.1-standalone.jar` to the Datomic library folder.
 
 Add the following to your `transactor.properties`:
 
