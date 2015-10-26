@@ -105,7 +105,7 @@
 
 (defn de-camelcase [s]
   (->> s
-       (partition-by #(Character/isLowerCase %))
+       (partition-by #(Character/isLowerCase (int %)))
        (partition-all 2)
        (map flatten)
        (map #(apply str %))
