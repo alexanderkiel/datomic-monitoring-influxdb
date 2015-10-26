@@ -1,4 +1,4 @@
-(defproject datomic-monitoring-influxdb "0.1"
+(defproject datomic-monitoring-influxdb "0.2-SNAPSHOT"
   :description "Custom monitoring handler for Datomic transactors and peers which writes metrics into InfluxDB."
   :url "https://github.com/alexanderkiel/datomic-monitoring-influxdb"
 
